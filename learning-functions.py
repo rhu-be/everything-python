@@ -40,9 +40,6 @@ print(result)
 # title() = first letter of all words are capitalized ie, Naruto Uzumaki.
 # upper() and lower() ensure all letters in a word are capitalized or small respectively ie, NARUTO UZUMAKI, naruto uzumaki
 
-def hello():
-    return ("hi")
-x = hello()
-print(x)
+
 
 
