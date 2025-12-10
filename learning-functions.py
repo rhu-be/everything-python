@@ -40,6 +40,41 @@ print(result)
 # title() = first letter of all words are capitalized ie, Naruto Uzumaki.
 # upper() and lower() ensure all letters in a word are capitalized or small respectively ie, NARUTO UZUMAKI, naruto uzumaki
 
+#quizes
+#1. write a function that prints "hello panda" (no parameters, no return.)
+
+def greetings():
+    x = "Hello"
+    print(x)
+
+
+greetings()
+
+#write a function that prints a name and prints "hello <name>!"
+"""def intro(name):
+    print(f"Hello {name}")
+user = input("Enter your name: ")
+intro(user)
+"""
+
+#Write a function that returns the square of a number.
+def square_of_num(num):
+    return num ** 2
+answer = square_of_num(6)
+print(answer)
+
+
+#Write a function that takes two numbers and returns their sum.
+def add(a,b):
+    return a + b
+result = add(2, 5)
+print(result)
+
+
+
+
+
+
 
 
 
